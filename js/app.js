@@ -57,7 +57,7 @@ class UI {
 
             const {mascota, propietario, telefono, fecha, hora, sintomas, id} = cita;
             const divCita = document.createElement('div');
-            divCita.classList.add('cita', 'p-3');
+            divCita.classList.add('cita', 'p-3','bg-light');
             divCita.dataset.id = id;
 
             const mascotaPararafo = document.createElement('h2');
